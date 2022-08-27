@@ -108,15 +108,20 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+loves_to_play && is_puppy
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+=begin
+ANSWER: This code coudl not evaluate.
+There was no variable established as 'is_puppy' so there was nothing for the code to evaluate to.
+If I were to create a variable called 'is_puppy' and assign the boolean true to it then that would allow the code to resolve.
+=end
