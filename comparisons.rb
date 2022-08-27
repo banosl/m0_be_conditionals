@@ -61,21 +61,32 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
+# This code asks if 4 is less than 9. It will print out 'true'.
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# This code assigns the value 3 to variable 'books' and asks if 4 is less than that variable. It will print out 'false'.
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+=begin
+This code assigns the integer 6 to variable 'friends' and the integer 2 to variable 'siblings'.
+Then, it asks if the value of 'friends' is greater than the value of 'siblings'
+It will pring out 'true'.
+=end
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+=begin
+This code assigns the integer 9 to 'attendees' and the integer 8 to 'meals'.
+Then it makes the comparison if attendes does not equal meals.
+It will resolve as true
+=end
 
 #-------------------
 # PART 3: Logical Operators
