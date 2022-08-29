@@ -1,3 +1,6 @@
+#I didn't finish this one. Ran out of time.
+
+
 number_of_bananas = 56
 
 puts "Do you have an even or odd number of bananas?"
