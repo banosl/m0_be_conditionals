@@ -1,10 +1,8 @@
 
-"Rent a car questionnaire"
+puts "Rent a car questionnaire"
 
-puts "You have a good driving record. true or false"
-good_driving_record = gets.to_i
-puts "You are over 25 years old. true or false"
-is_over_25 = gets.to_i
+good_driving_record = true
+is_over_25 = true
 
 
 if good_driving_record == true && is_over_25 == true
